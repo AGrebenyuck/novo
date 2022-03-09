@@ -13,7 +13,8 @@ function browsersync(){
     server: {
       baseDir: 'app/'
     },
-    notify: false
+    notify: false,
+    host: '192.168.1.107'
   })
 }
 

@@ -95,6 +95,11 @@
     &__title{
       max-width: 610px;
     }
+    &__subtitle{
+      &::after{
+        height: 136px;
+      }
+    }
   }
   .begin{
     &__item-img{
@@ -181,11 +186,6 @@
   }
   .tariff{
     padding: 150px 0;
-    &__subtitle{
-      &::after{
-        height: 136px;
-      }
-    }
     &__feedback-title{
       font-size: 20px;
       line-height: 30px;
@@ -339,11 +339,12 @@
   .tariff{
     padding: 120px 0 100px;
     &__title{
-      margin-bottom: 20px;
+      margin-bottom: 50px;
     }
     &__items{
       flex-direction: column;
       align-items: center;
+      margin-bottom: 150px;
     }
     &__feedback-inner{
       padding: 40px 24px;

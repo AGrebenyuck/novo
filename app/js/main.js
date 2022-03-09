@@ -8,17 +8,17 @@ $(function(){
     
     $('.menu__list').toggleClass('menu__list--active');
 		
-		$('body,html').animate({scrollTop: top-100}, 1500);
+		$('body,html').animate({scrollTop: top-120}, 1500);
 	});
 
   $(window).scroll(function() {
     var height = $(window).scrollTop();
     
     if(height > 500){
-      $('.header__inner').addClass('header__inner--fixed');
+      $('.main').addClass('main--fixed');
       $('.header').addClass('header--fixed');
     } else{
-      $('.header__inner').removeClass('header__inner--fixed');
+      $('.main').removeClass('main--fixed');
       $('.header').removeClass('header--fixed');
     }
   });
